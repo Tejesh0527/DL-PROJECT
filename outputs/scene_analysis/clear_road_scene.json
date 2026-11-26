@@ -1,0 +1,32 @@
+{
+  "input": "data/input_images/clear_road.jpg",
+  "frame_number": 0,
+  "raw_condition": {
+    "clear": 1.0,
+    "rain": 0.0,
+    "fog": 0.0,
+    "dark": 0.0,
+    "scene_confidence": 1.0
+  },
+  "smoothed_condition": {
+    "clear": 1.0,
+    "rain": 0.0,
+    "fog": 0.0,
+    "dark": 0.0
+  },
+  "reliability": {
+    "reliability": 0.8091788053512573,
+    "mean_confidence": 0.8979470133781433,
+    "low_conf_fraction": 0.0,
+    "class_consistency": 0.5,
+    "num_detections": 3,
+    "valid": true
+  },
+  "raw_features": {
+    "mean_brightness": 100.84436798095703,
+    "contrast": 36.94474792480469,
+    "laplacian_var": 147.99177734375,
+    "dark_pixel_frac": 0.0,
+    "vertical_edge_energy": 0.00471389910130719
+  }
+}

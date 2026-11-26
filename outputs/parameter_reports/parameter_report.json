@@ -1,0 +1,48 @@
+{
+  "model_name": "F-YOLO (BLOCKED)",
+  "integration_status": "blocked",
+  "total_fuzzy_parameters": 10,
+  "num_fuzzy_layers": 2,
+  "layers": [
+    {
+      "layer_name": "ffm.fuzzy_layer_mock",
+      "num_functions": 3,
+      "centres": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "sigmas": [
+        0.15,
+        0.2,
+        0.15
+      ],
+      "metadata": {
+        "source": "mock",
+        "verified": false
+      }
+    },
+    {
+      "layer_name": "fa.fuzzy_attention_mock",
+      "num_functions": 2,
+      "centres": [
+        0.3,
+        0.7
+      ],
+      "sigmas": [
+        0.2,
+        0.2
+      ],
+      "metadata": {
+        "source": "mock",
+        "verified": false
+      }
+    }
+  ],
+  "notes": [
+    "F-YOLO source and checkpoint are not available.",
+    "Parameter inspection cannot proceed without the actual model.",
+    "Mock parameters below are for interface testing ONLY.",
+    "Do NOT use these values as actual F-YOLO parameters."
+  ]
+}

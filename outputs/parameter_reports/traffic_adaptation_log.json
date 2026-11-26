@@ -1,0 +1,334 @@
+[
+  {
+    "frame_number": 0,
+    "gate_alpha": 0.4295894026756286,
+    "reliability": 0.8591788053512572,
+    "temporal_consistency": 0.5,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 1,
+    "gate_alpha": 0.0,
+    "reliability": 0.8269979238510132,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 2,
+    "gate_alpha": 0.15405101936316234,
+    "reliability": 0.8258261919021606,
+    "temporal_consistency": 0.1865416971194993,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 3,
+    "gate_alpha": 0.18635856551452246,
+    "reliability": 0.6108556270599365,
+    "temporal_consistency": 0.3050779222767758,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 4,
+    "gate_alpha": 0.0,
+    "reliability": 0.7418052673339844,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 5,
+    "gate_alpha": 0.0,
+    "reliability": 0.5553606986999512,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 6,
+    "gate_alpha": 0.0,
+    "reliability": 0.5898268699645997,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 7,
+    "gate_alpha": 0.09262010880388614,
+    "reliability": 0.6172086000442505,
+    "temporal_consistency": 0.1500628941288987,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 8,
+    "gate_alpha": 0.0,
+    "reliability": 0.6448655486106872,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 9,
+    "gate_alpha": 0.3799945369320033,
+    "reliability": 0.9746140480041505,
+    "temporal_consistency": 0.3898923247722211,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 10,
+    "gate_alpha": 0.05591789027826435,
+    "reliability": 0.41062471866607664,
+    "temporal_consistency": 0.13617760387127895,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 12,
+    "gate_alpha": 0.0,
+    "reliability": 0.585005235671997,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 13,
+    "gate_alpha": 0.3192064241393375,
+    "reliability": 0.675051212310791,
+    "temporal_consistency": 0.47286253000961365,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 15,
+    "gate_alpha": 0.0,
+    "reliability": 0.43174698352813723,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 16,
+    "gate_alpha": 0.0,
+    "reliability": 0.13096752166748046,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 17,
+    "gate_alpha": 0.09880684077939235,
+    "reliability": 0.6459797382354736,
+    "temporal_consistency": 0.15295656338895125,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 18,
+    "gate_alpha": 0.11774521509013548,
+    "reliability": 0.7615561485290527,
+    "temporal_consistency": 0.154611338005163,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 19,
+    "gate_alpha": 0.0,
+    "reliability": 0.7969391107559204,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 20,
+    "gate_alpha": 0.14018541351114525,
+    "reliability": 0.7525121688842773,
+    "temporal_consistency": 0.18628989577536414,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 21,
+    "gate_alpha": 0.0,
+    "reliability": 0.6942432165145874,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 22,
+    "gate_alpha": 0.228747693840802,
+    "reliability": 0.701603889465332,
+    "temporal_consistency": 0.32603538446048624,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 24,
+    "gate_alpha": 0.0,
+    "reliability": 0.8709061861038208,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 25,
+    "gate_alpha": 0.0,
+    "reliability": 0.3939864158630371,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 26,
+    "gate_alpha": 0.14649427523563152,
+    "reliability": 0.7605299711227417,
+    "temporal_consistency": 0.19262130461389648,
+    "scene_confidence": 1.0,
+    "layers_updated": [
+      "ffm.fuzzy_layer_mock",
+      "fa.fuzzy_attention_mock"
+    ],
+    "delta_norms": {
+      "ffm.fuzzy_layer_mock.centres": 0.0,
+      "ffm.fuzzy_layer_mock.sigmas": 0.0,
+      "fa.fuzzy_attention_mock.centres": 0.0,
+      "fa.fuzzy_attention_mock.sigmas": 0.0
+    },
+    "update_applied": true
+  },
+  {
+    "frame_number": 28,
+    "gate_alpha": 0.0,
+    "reliability": 0.49881271123886106,
+    "temporal_consistency": 0.0,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  },
+  {
+    "frame_number": 29,
+    "gate_alpha": 0.06844660303314043,
+    "reliability": 0.6650731801986695,
+    "temporal_consistency": 0.1029158971839673,
+    "scene_confidence": 1.0,
+    "layers_updated": [],
+    "delta_norms": {},
+    "update_applied": false
+  }
+]

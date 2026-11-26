@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "input": "data/input_images/clear_road.jpg",
+    "detector": "StubDetector (TEST-ONLY \u2013 NOT F-YOLO)",
+    "mode": "image"
+  },
+  "total_detections": 3,
+  "detections": [
+    {
+      "frame_number": 0,
+      "bbox": {
+        "x1": 120.8644477662139,
+        "y1": 13.767104042561416,
+        "x2": 186.9799851138656,
+        "y2": 139.84104700578757
+      },
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.9345666829582913,
+      "timestamp_ms": 0.0
+    },
+    {
+      "frame_number": 0,
+      "bbox": {
+        "x1": 271.77282754369656,
+        "y1": 245.11084449062346,
+        "x2": 405.3568264512707,
+        "y2": 382.87779717424917
+      },
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.8618901655911491,
+      "timestamp_ms": 0.0
+    },
+    {
+      "frame_number": 0,
+      "bbox": {
+        "x1": 384.11711591123105,
+        "y1": 11.284753302636023,
+        "x2": 541.5130130542639,
+        "y2": 76.14769288048169
+      },
+      "class_id": 2,
+      "class_name": "car",
+      "confidence": 0.8973841917624149,
+      "timestamp_ms": 0.0
+    }
+  ]
+}
