@@ -1,0 +1,153 @@
+{
+ "n_train": 965,
+ "bdd100k_real": {
+  "n_test": 112,
+  "accuracy": 0.8571428571428571,
+  "confusion_matrix": [
+   [
+    33,
+    2,
+    1,
+    0
+   ],
+   [
+    8,
+    28,
+    0,
+    0
+   ],
+   [
+    0,
+    3,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    35
+   ]
+  ],
+  "labels": [
+   "clear",
+   "rain",
+   "fog",
+   "dark"
+  ],
+  "report": {
+   "clear": {
+    "precision": 0.7857142857142857,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8461538461538461,
+    "support": 36.0
+   },
+   "rain": {
+    "precision": 0.8484848484848485,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8115942028985508,
+    "support": 36.0
+   },
+   "fog": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+   },
+   "dark": {
+    "precision": 0.9722222222222222,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9722222222222222,
+    "support": 36.0
+   },
+   "accuracy": 0.8571428571428571,
+   "macro avg": {
+    "precision": 0.6516053391053391,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6574925678186548,
+    "support": 112.0
+   },
+   "weighted avg": {
+    "precision": 0.8377782931354361,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8453475871954134,
+    "support": 112.0
+   }
+  }
+ },
+ "ua_detrac_synthetic": {
+  "n_test": 240,
+  "accuracy": 1.0,
+  "confusion_matrix": [
+   [
+    60,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    60,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    60,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    60
+   ]
+  ],
+  "labels": [
+   "clear",
+   "rain",
+   "fog",
+   "dark"
+  ],
+  "report": {
+   "clear": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60.0
+   },
+   "rain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60.0
+   },
+   "fog": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60.0
+   },
+   "dark": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60.0
+   },
+   "accuracy": 1.0,
+   "macro avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 240.0
+   },
+   "weighted avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 240.0
+   }
+  }
+ }
+}

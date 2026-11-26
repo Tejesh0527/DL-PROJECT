@@ -1,0 +1,48 @@
+# RATFA - Reliability-Aware Temporal Fuzzy Adaptation
+# Requirements for Member 1 implementation
+
+# Core numerical computing
+numpy>=1.24.0
+
+# Image and video processing
+opencv-python>=4.8.0
+
+# Deep learning (for potential F-YOLO integration)
+torch>=2.0.0
+# Note: torchvision is optional and not required by the current Member 1 codebase.
+# If required once F-YOLO source is obtained, install matching torchvision:
+# pip install torchvision>=0.15.0
+
+# Scientific computing
+scipy>=1.11.0
+
+# Configuration
+pyyaml>=6.0
+
+# Logging and utilities
+colorlog>=6.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Visualization and reporting
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Data handling
+pandas>=2.0.0
+
+# Type hints (Python 3.8+ backports)
+typing-extensions>=4.7.0
+
+
+# RATFA experiments (detector training, tracking, metrics, notebook)
+ultralytics>=8.3.0
+lap>=0.5.12
+motmetrics>=1.4.0
+scikit-learn>=1.3.0
+tabulate>=0.9.0
+nbformat>=5.9.0
+nbconvert>=7.0.0
+ipykernel>=6.0.0

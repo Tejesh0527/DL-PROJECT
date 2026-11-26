@@ -1,0 +1,105 @@
+# RATFA Project Configuration
+# Reliability-Aware Temporal Fuzzy Adaptation
+
+# ─── Project Metadata ───────────────────────────────────────────────────────
+project:
+  name: RATFA
+  version: "1.0.0"
+  description: >
+    Reliability-Aware Temporal Fuzzy Adaptation for Robust Traffic
+    Object Detection and Vehicle Tracking
+
+# ─── Logging ────────────────────────────────────────────────────────────────
+logging:
+  level: INFO          # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  log_dir: logs
+  log_file: ratfa.log
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+# ─── Detector ───────────────────────────────────────────────────────────────
+detector:
+  # F-YOLO integration status.
+  # Set to "fyolo" once the actual checkpoint is available.
+  # Currently BLOCKED: source code and checkpoint unavailable; using
+  # a clearly-labelled temporary stub for software testing only.
+  backend: "stub"              # "fyolo" | "stub"
+  fyolo:
+    source_repo: "https://github.com/jia-et-al/F-YOLO"   # expected location
+    checkpoint: "checkpoints/fyolo_coco.pt"               # expected path
+    config: "config/fyolo.yaml"
+    imgsz: 640
+    device: "cpu"              # "cpu" | "cuda"
+  stub:
+    imgsz: 640
+    device: "cpu"
+  # Detection thresholds
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  # Vehicle categories (COCO class IDs)
+  vehicle_classes:
+    ids: [2, 3, 5, 7]        # car, motorcycle, bus, truck
+    names:
+      2: car
+      3: motorcycle
+      5: bus
+      7: truck
+
+# ─── Video Processing ───────────────────────────────────────────────────────
+video:
+  output_fps: null       # null → use source FPS
+  output_codec: "mp4v"
+  display_frames: false  # set true only for interactive sessions
+
+# ─── Scene-Condition Estimation ─────────────────────────────────────────────
+scene:
+  # Method: "heuristic" (image-processing baseline) | "classifier" (trained CNN)
+  method: "heuristic"
+  conditions: ["clear", "rain", "fog", "dark"]
+  heuristic:
+    # Brightness thresholds (mean pixel value 0-255)
+    dark_brightness_threshold: 60
+    # Laplacian variance threshold for blur / haze
+    fog_laplacian_threshold: 50.0
+    # Rain detection: high-frequency vertical edge energy
+    rain_edge_threshold: 0.15
+    # Fog detection: global contrast (std) threshold
+    fog_contrast_threshold: 30.0
+  # Confidence calibration bounds
+  confidence:
+    min: 0.0
+    max: 1.0
+
+# ─── Causal Temporal Smoother ───────────────────────────────────────────────
+smoother:
+  lambda_e: 0.7   # Eq. (2): e_bar_t = lambda_e * e_bar_{t-1} + (1-lambda_e) * e_t
+                  # Range [0, 1]; higher → more smoothing, slower response.
+  num_conditions: 4
+
+# ─── Gaussian Fuzzy Membership ──────────────────────────────────────────────
+fuzzy:
+  # mu(x; c, sigma) = exp(-(x-c)^2 / (2*sigma^2))
+  default_sigma: 0.2
+  sigma_min: 1.0e-6   # Hard lower bound; widths must remain strictly positive.
+
+# ─── Fuzzy Parameter Manager ────────────────────────────────────────────────
+parameter_manager:
+  # Clipping limits relative to trained reference values (fractional change)
+  max_center_fractional_change: 0.10   # ±10% of reference center
+  max_width_fractional_change: 0.15    # ±15% of reference width
+  report_dir: outputs/parameter_reports
+
+# ─── Runtime adaptation (video mode) ────────────────────────────────────────
+adaptation:
+  enabled: false            # or pass --adapt on the command line
+  gate_threshold: 0.1       # gamma_t below this -> no update
+  rate_limit: 0.05          # max absolute step per update
+  tracker_iou_threshold: 0.3
+  tracker_max_age: 5
+
+# ─── Output Paths ───────────────────────────────────────────────────────────
+outputs:
+  detections_dir: outputs/detections
+  videos_dir: outputs/videos
+  scene_analysis_dir: outputs/scene_analysis
+  parameter_reports_dir: outputs/parameter_reports
+
